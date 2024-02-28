@@ -1,5 +1,5 @@
 name: ExtDN M2 Coding Standard
-on: [push, pull_request]
+on: [on.workflow_call]
 
 jobs:
   static:
