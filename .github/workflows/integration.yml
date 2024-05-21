@@ -12,7 +12,7 @@ on:
         type: string
 jobs:
   integration-tests-2-4-4-p7-7-4:
-    name: Magento 2-4-4-p7 PHP 7-4 Integration Tests
+    name: Magento 2.4.4-p7 PHP 7.4 Integration Tests
     runs-on: ubuntu-latest
     services:
       mysql:
@@ -70,7 +70,7 @@ jobs:
           ce_version: '2.4.4-p7'
           composer_version: '2'
   integration-tests-2-4-4-p8-7-4:
-    name: Magento 2-4-4-p8 PHP 7-4 Integration Tests
+    name: Magento 2.4.4-p8 PHP 7.4 Integration Tests
     runs-on: ubuntu-latest
     services:
       mysql:
@@ -99,7 +99,7 @@ jobs:
           ce_version: '2.4.4-p8'
           composer_version: '2'
   integration-tests-2-4-4-p8-8-1:
-    name: Magento 2-4-4-p8 PHP 8-1 Integration Tests
+    name: Magento 2.4.4-p8 PHP 8.1 Integration Tests
     runs-on: ubuntu-latest
     services:
       mysql:
@@ -360,7 +360,7 @@ jobs:
           ce_version: '2.4.6-p5'
           composer_version: '2'
   integration-tests-2-4-7-8-1:
-    name: Magento 2-4-7 PHP 8-1 Integration Tests
+    name: Magento 2.4.7 PHP 8.1 Integration Tests
     runs-on: ubuntu-latest
     services:
       mysql:
@@ -389,7 +389,7 @@ jobs:
           ce_version: '2.4.7'
           composer_version: '2'
   integration-tests-2-4-7-8-2:
-    name: Magento 2-4-7 PHP 8-2 Integration Tests
+    name: Magento 2.4.7 PHP 8.2 Integration Tests
     runs-on: ubuntu-latest
     services:
       mysql:
@@ -418,7 +418,7 @@ jobs:
           ce_version: '2.4.7'
           composer_version: '2'
   integration-tests-2-4-7-8-3:
-    name: Magento 2-4-7 PHP 8-3 Integration Tests
+    name: Magento 2.4.7 PHP 8.3 Integration Tests
     runs-on: ubuntu-latest
     services:
       mysql:
