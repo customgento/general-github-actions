@@ -1,5 +1,11 @@
 name: ExtDN M2 PHPStan
-on: [workflow_call]
+on:
+  workflow_call:
+    inputs:
+      composer_name:
+        description: "Composer name"
+        required: true
+        type: string
 
 jobs:
   phpstan:
@@ -7,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: extdn/github-actions-m2/magento-phpstan/8.2@master
+      - uses: extdn/github-actions-m2/magento-phpstan/8.3@master
         with:
-          composer_name: customgento/module-cookiebot-m2
+          composer_name: ${{ inputs.composer_name }}
