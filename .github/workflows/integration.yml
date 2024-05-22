@@ -38,7 +38,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.4-p7'
+          magento_version: '2.4.4-p7'
           composer_version: '2'
   integration-tests-2-4-4-p7-8-1:
     name: Magento 2.4.4-p7 PHP 8.1 Integration Tests
@@ -67,7 +67,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.4-p7'
+          magento_version: '2.4.4-p7'
           composer_version: '2'
   integration-tests-2-4-4-p8-7-4:
     name: Magento 2.4.4-p8 PHP 7.4 Integration Tests
@@ -96,7 +96,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.4-p8'
+          magento_version: '2.4.4-p8'
           composer_version: '2'
   integration-tests-2-4-4-p8-8-1:
     name: Magento 2.4.4-p8 PHP 8.1 Integration Tests
@@ -125,7 +125,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.4-p8'
+          magento_version: '2.4.4-p8'
           composer_version: '2'
   integration-tests-2-4-5-p6-7-4:
     name: Magento 2.4.5-p6 PHP 7.4 Integration Tests
@@ -154,7 +154,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.5-p6'
+          magento_version: '2.4.5-p6'
           composer_version: '2'
   integration-tests-2-4-5-p6-8-1:
     name: Magento 2.4.5-p6 PHP 8.1 Integration Tests
@@ -183,7 +183,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.5-p6'
+          magento_version: '2.4.5-p6'
           composer_version: '2'
   integration-tests-2-4-5-p7-7-4:
     name: Magento 2.4.5-p7 PHP 7.4 Integration Tests
@@ -212,7 +212,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.5-p7'
+          magento_version: '2.4.5-p7'
           composer_version: '2'
   integration-tests-2-4-5-p7-8-1:
     name: Magento 2.4.5-p7 PHP 8.1 Integration Tests
@@ -241,7 +241,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.5-p7'
+          magento_version: '2.4.5-p7'
           composer_version: '2'
   integration-tests-2-4-6-p4-8-1:
     name: Magento 2.4.6-p4 PHP 8.1 Integration Tests
@@ -270,7 +270,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.6-p4'
+          magento_version: '2.4.6-p4'
           composer_version: '2'
   integration-tests-2-4-6-p4-8-2:
     name: Magento 2.4.6-p4 PHP 8.2 Integration Tests
@@ -299,7 +299,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.6-p4'
+          magento_version: '2.4.6-p4'
           composer_version: '2'
   integration-tests-2-4-6-p5-8-1:
     name: Magento 2.4.6-p5 PHP 8.1 Integration Tests
@@ -328,7 +328,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.6-p5'
+          magento_version: '2.4.6-p5'
           composer_version: '2'
   integration-tests-2-4-6-p5-8-2:
     name: Magento 2.4.6-p5 PHP 8.2 Integration Tests
@@ -357,7 +357,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.6-p5'
+          magento_version: '2.4.6-p5'
           composer_version: '2'
   integration-tests-2-4-7-8-1:
     name: Magento 2.4.7 PHP 8.1 Integration Tests
@@ -386,7 +386,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.7'
+          magento_version: '2.4.7'
           composer_version: '2'
   integration-tests-2-4-7-8-2:
     name: Magento 2.4.7 PHP 8.2 Integration Tests
@@ -415,7 +415,7 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.7'
+          magento_version: '2.4.7'
           composer_version: '2'
   integration-tests-2-4-7-8-3:
     name: Magento 2.4.7 PHP 8.3 Integration Tests
@@ -444,5 +444,5 @@ jobs:
         with:
           module_name: ${{ inputs.module_name }}
           composer_name: ${{ inputs.composer_name }}
-          ce_version: '2.4.7'
+          magento_version: '2.4.7'
           composer_version: '2'
