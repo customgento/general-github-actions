@@ -6,6 +6,10 @@ on:
         description: "Composer name"
         required: true
         type: string
+      magento_pre_install_script:
+        description: "Magento pre-install script"
+        required: true
+        type: string
 
 jobs:
   phpstan:
