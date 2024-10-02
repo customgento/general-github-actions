@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: extdn/github-actions-m2/magento-phpstan/8.3@master
         env:
-          HYVA_GITLAB_TOKEN: 'glpat-dypE4-sKyVmRNSSbf1hv'
+          HYVA_GITLAB_TOKEN: ${{ secrets.HYVA_GITLAB_TOKEN }}
         with:
           composer_name: ${{ inputs.composer_name }}
           magento_pre_install_script: ${{ inputs.magento_pre_install_script }}
